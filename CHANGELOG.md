@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.5](https://github.com/pakho12/rust-githubaction-demo/compare/v0.1.4...v0.1.5) - 2025-02-19
+
+### Added
+
+- Update main.rs
+
+### Other
+
+- Update release-plz.yml
+
 ## [0.1.4](https://github.com/pakho12/rust-githubaction-demo/compare/v0.1.3...v0.1.4) - 2025-02-19
 
 ### Added
