@@ -56,9 +56,6 @@ jobs:
           release_tag=$(echo "$RELEASES" | jq -r '.[0].tag')
           echo "release_tag: $release_tag"
 
-          release_package_name=$(echo "$RELEASES" | jq -r '.[0].package_name')
-          echo "release_package_name: $release_package_name"
-
           # print all names of released packages, one per line
           echo "package_names: $(echo "$RELEASES" | jq -r '.[].package_name')"
           # TODO: show how to store this in a variable and iterate over it (maybe an array?). PR welcome!
