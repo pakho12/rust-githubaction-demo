@@ -7,7 +7,7 @@ fn example_1_2() {
 }
 
 fn main() {
-    let sum = add(1, 2);
-    assert_eq!(sum, 3);
+    let sum = add(1, 4);
+    assert_eq!(sum, 5);
     println!("sum is: {}", sum);
 }
