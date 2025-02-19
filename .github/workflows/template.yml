@@ -34,3 +34,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: release-plz
+        uses: release-plz/action@v0.5.94
